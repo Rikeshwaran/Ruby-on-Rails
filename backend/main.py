@@ -1,4 +1,8 @@
 from fastapi import FastAPI
+from database.init import init_db
+
+init_db()
+
 
 app = FastAPI()
 
