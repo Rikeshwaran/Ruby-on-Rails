@@ -3,3 +3,10 @@
 /backend/__pycache__
 
 /backend/models/__pycache__
+/backend/models/inputtypes/__pycache__
+
+/frontend/node_modules
+/backend/resources/__pycache__
+/backend/resources/controllers/__pycache__
+/backend/resources/resolvers/__pycache__
+/backend/routes/__pycache__

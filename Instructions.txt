@@ -1,0 +1,50 @@
+#############################################
+
+
+BACKEND -   cd backend
+            uvicorn main:app --reload
+
+FRONTEND -  cd frontend
+            npm install
+            npm run dev
+
+############################################
+
+DB
+
+
+copy the commands in file databaseforSQL and paste in mysqlworkbench and execute 
+
+its for users only once executed in mysqlworkbench then run the backend
+
+
+############################################
+
+
+LOGINS:
+
+--------------------------------------------------------------------
+ADMIN ############
+
+ID       : admin@gmail.com
+Password : admin
+
+--------------------------------------------------------------------
+STOREOWNER #######
+
+ID       : storeowner@gmail.com
+Password : storeowner
+
+--------------------------------------------------------------------
+USER #############
+
+ID       : user@gmail.com
+Password : user
+
+#######################################
+
+
+POSTMAN / BACKEND URL :http://127.0.0.1:8000/rateme
+
+
+FRONTEND /URL : http://localhost:5173   // middleware does not allo other port numbers if needed paste the URL in /backend/main.py - allow origins

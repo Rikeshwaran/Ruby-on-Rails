@@ -36,6 +36,6 @@ class Rating(Base):
     id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, nullable=False)
     store_id = Column(Integer, nullable=False)
-    rating = Column(Integer, nullable=False) #int of 1 to 5
+    rating = Column(Integer, nullable=False) 
 
     status = Column(String(50), nullable=False, default="active")
