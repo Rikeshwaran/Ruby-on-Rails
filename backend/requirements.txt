@@ -1,6 +1,11 @@
-fastapi==0.129.0
+fastapi==0.135.2
 passlib==1.7.4
-PyJWT==2.10.1
-PyJWT==2.11.0
-SQLAlchemy==2.0.46
-strawberry==3.0
+PyJWT==2.12.1
+SQLAlchemy==2.0.48
+strawberry-graphql==0.211.1
+uvicorn[standard]==0.30.6
+mysql==0.0.3
+mysql-connector==2.2.9
+mysql-connector-python==8.0.31
+PyMySQL==1.0.2
+mysqlclient==2.1.1
